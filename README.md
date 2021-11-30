@@ -130,3 +130,16 @@ esports.handler = Alexa.SkillBuilders.custom()
 ```
 
 Un aspecto importante es que, en la tabla hash, debemos utilizar los códigos para los idiomas predefinidos (it, es, en, etc).
+
+
+## **Slots**
+
+A la hora de crear un intent, tendremos que designar las Utterances. Y si existen variables en ellas, estas son denominadas slots.
+
+```
+Mi fecha de nacimiento es el {day} de {month} del {year}.
+```
+
+Esta es una utterance para que Alexa recuerde nuestra fecha de nacimiento. Es decir, almacenará las variables _day_, _month_ y _year_.
+
+A estos slots tendremos que asignarles un tipo de dato. También podremos crear uno nuevo, por ejemplo, para _month_.
