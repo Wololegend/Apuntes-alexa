@@ -143,3 +143,16 @@ Mi fecha de nacimiento es el {day} de {month} del {year}.
 Esta es una utterance para que Alexa recuerde nuestra fecha de nacimiento. Es decir, almacenará las variables _day_, _month_ y _year_.
 
 A estos slots tendremos que asignarles un tipo de dato. También podremos crear uno nuevo, por ejemplo, para _month_.
+
+
+## Práctica manos
+
+cmake .
+make
+
+En cierto punto querremos poner el learning rate de MOG2 a cero. Asignamos una tecla para cambiarlo durante la ejecución como con la Q para salir.
+
+Para pintar el contorno, miramos en el vector de vectores de puntos, buscamos el más grande y ese es el que le pasamos a drawContours.
+
+Comparar profundidad con rectángulo de área mínima para no depender de distancia con la cámraa. Hacer profundidad independiente de la escala.
+
